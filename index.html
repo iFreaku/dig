@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#20324b">
+  <meta name="description" content="A fully explained Digital Electronics exam preparation course built from uploaded PYQs and class notes.">
+  <title>Signal Lab — Digital Electronics</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand"><div class="brand-mark">∑</div><div><strong>SIGNAL LAB</strong><small>Digital Electronics · CSE</small></div><button class="mobile-close" id="close-menu" aria-label="Close menu">×</button></div>
+      <div class="exam-chip"><i></i><div><b>EXAM · 26 NOV 2026</b><small>Last-minute preparation</small></div></div>
+      <nav id="navigation">
+        <div class="nav-group"><small>START HERE</small><button data-page="home" class="nav-item active"><span class="nav-icon">⌂</span><span>Overview</span></button><button data-page="priority" class="nav-item"><span class="nav-icon">◎</span><span>Exam priorities</span></button><button data-page="predictions" class="nav-item"><span class="nav-icon">✳</span><span>Predicted practice</span></button></div>
+        <div class="nav-group"><small>STUDY & SOLVE</small><button data-page="pyqs" class="nav-item"><span class="nav-icon">▤</span><span>PYQ collection</span></button><button data-page="learn" class="nav-item"><span class="nav-icon">▱</span><span>Detailed lessons</span></button><button data-page="practice" class="nav-item"><span class="nav-icon">?</span><span>Practice quiz</span></button></div>
+        <div class="nav-group"><small>REVISE & VERIFY</small><button data-page="revision" class="nav-item"><span class="nav-icon">ϟ</span><span>Quick revision + labs</span></button><button data-page="audit" class="nav-item"><span class="nav-icon">✓</span><span>Notes audit & fixes</span></button><button data-page="videos" class="nav-item"><span class="nav-icon">▷</span><span>Video lessons</span></button><button data-page="sources" class="nav-item"><span class="nav-icon">▧</span><span>Source material</span></button></div>
+      </nav>
+      <div class="sidebar-bottom"><div class="progress-mini"><div class="progress-mini-top"><span>Topic checklist</span><b id="done-count">0/9</b></div><div class="progress-track"><i id="done-bar"></i></div><small>Saved in this browser</small></div><div class="sidebar-foot">Course material is reviewed and expanded, not copied word for word.</div></div>
+    </aside>
+    <button class="scrim" id="scrim" aria-label="Close menu"></button>
+    <main class="main-area">
+      <header class="topbar"><button class="menu-button" id="open-menu" aria-label="Open navigation">☰</button><div class="crumb"><span>Digital Electronics</span><i>/</i><b id="crumb-title">Your exam control room</b></div><div class="top-actions"><div class="search-box"><span>⌕</span><input id="global-search" type="search" placeholder="Search topics, PYQs, videos…" autocomplete="off" aria-label="Search study material"><button id="clear-search" aria-label="Clear search">×</button><div class="search-popover" id="search-results"></div></div><div class="date-pill"><span>26</span><small>NOV<br>2026</small></div></div></header>
+      <div class="page-content"><div class="page-heading"><div><div class="eyebrow">THIRD SEMESTER · CSE 302</div><h1 id="page-title">Your exam control room</h1></div><div class="heading-note">◷ Exam-focused course</div></div><div id="content" aria-live="polite"></div></div>
+      <footer class="app-footer"><span>SIGNAL LAB <i>·</i> Digital Electronics revision course</span><span>Check the source labels when a topic has been supplemented.</span></footer>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
